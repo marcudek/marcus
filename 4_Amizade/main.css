@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.titulo-especial {
+    color: black;
+    background-color:rgb(3, 30, 146);
+    padding: 10px;
+}
+
+.julia {
+    float:right;
+    margin: 0px 0px 15px 15px;
+    border: 2px solid blue;
+    padding: 10px;
+
+}
+.foto-especial{
+    float:left;
+    margin: 0px 0px 15px 15px;
+    border: 2px solid blue;
+    padding: 10px;
+}
+body{
+    background-color: black;
+}
+h2, h3{
+    color: rgb(247, 247, 247);
+}
+p{
+    font-size: large;
+    color: white;
+}
+
+.anim-typewriter {
+	animation: typewriter 4s steps(15) 500ms infinite,
+	blinkTextCursor 500ms steps(15) infinite normal;
+}
